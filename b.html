@@ -1,0 +1,56 @@
+﻿<html>
+<style>
+body {
+  background-image: url('d.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+.contents{
+ position:relative;
+ left:250;
+ bottom:0;
+ background:rgba(0,0,0,0.5);
+ color:#f1f1f1;
+ width:60;
+ padding:20px;
+}
+</style>
+<form>
+Name<br>
+<input type="text" name="Name" size="20" value="name"><br><br>
+Password<br>
+<input type="password" name="Password"><br><br>
+Phone<br>
+<input type="phone" name="Phone" maxlength="10" value="123"><br><br>
+Gender<br>
+<input type="radio" name="Gender" value="M">Male
+<input type="radio" name="Gender" value="F">Female
+<input type="radio" name="Gender" value="O">Others<br><br>
+Known Languages<br>
+<input type="checkbox" name="language" value="telugu">Telugu
+<input type="checkbox" name="language" value="english">English
+<input type="checkbox" name="language" value="tamil">Tamil<br><br>
+Education<br>
+<select>
+<option>Graduate</option>
+<option selected>Post Graduate<option>
+</select><br><br>
+Skills<br>
+<input type="checkbox" name="skills" value="c_language">C
+<input type="checkbox" name="skills" value="c++">C++
+<input type="checkbox" name="skills" value="java">java<br><br>
+Address<br>
+<textarea rows="5" cols="30" style="resize:none;"></textarea><br><br>
+Nationality
+<select>
+<option>indian</option>
+<option>other</option>
+</select><br><br>
+choose images<br>
+<input type="file"><br><br>
+<input type="reset" name="reset">
+<input type="submit" name="submit"><br>
+ 
+</form>
+</html>
